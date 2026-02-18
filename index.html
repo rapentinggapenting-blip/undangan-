@@ -3,160 +3,164 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wedding Invitation</title>
+<title>Syahril & Mutia Wedding</title>
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #000000, #1a1a1a);
-    color: #fff;
-    overflow-x: hidden;
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0e0e0e;
+    color:#fff;
 }
 
-section {
-    padding: 80px 20px;
-    text-align: center;
+section{
+    padding:60px 20px;
+    text-align:center;
 }
 
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
+h1,h2{
+    font-family:'Playfair Display',serif;
+    letter-spacing:1px;
 }
 
-.hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1600&q=80') center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:
+        linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+        url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80')
+        center/cover;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    color: gold;
+.hero h1{
+    font-size:2.4rem;
+    color:#d4af37;
 }
 
-.hero p {
-    margin-top: 15px;
-    font-size: 1.2rem;
-    letter-spacing: 3px;
+.hero p{
+    margin-top:12px;
+    font-size:0.95rem;
+    letter-spacing:3px;
 }
 
-.gold-line {
-    width: 100px;
-    height: 2px;
-    background: gold;
-    margin: 20px auto;
+.line{
+    width:70px;
+    height:2px;
+    background:#d4af37;
+    margin:20px auto;
 }
 
-.card {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 40px;
-    background: rgba(255, 215, 0, 0.05);
-    border: 1px solid gold;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
+.card{
+    background:#151515;
+    border:1px solid #d4af37;
+    border-radius:16px;
+    padding:30px 20px;
+    max-width:420px;
+    margin:0 auto;
 }
 
-.card h2 {
-    color: gold;
-    margin-bottom: 20px;
+.card h2{
+    color:#d4af37;
+    margin-bottom:10px;
 }
 
-.details p {
-    margin: 10px 0;
-    font-size: 1.1rem;
+.card p{
+    font-size:0.95rem;
+    margin:8px 0;
+    line-height:1.6;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 30px;
-    border: 1px solid gold;
-    color: gold;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: 0.3s;
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 28px;
+    border-radius:30px;
+    border:1px solid #d4af37;
+    color:#d4af37;
+    text-decoration:none;
+    font-size:0.9rem;
+    transition:.3s;
 }
 
-.btn:hover {
-    background: gold;
-    color: black;
+.btn:hover{
+    background:#d4af37;
+    color:#000;
 }
 
-footer {
-    padding: 30px;
-    background: #111;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
+footer{
+    padding:25px;
+    font-size:0.8rem;
+    text-align:center;
+    background:#111;
+    color:#aaa;
 }
 </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <section class="hero">
     <h1>Syahril & Mutia</h1>
-    <div class="gold-line"></div>
+    <div class="line"></div>
     <p>WE ARE GETTING MARRIED</p>
 </section>
 
+<!-- SAVE THE DATE -->
 <section>
     <div class="card">
         <h2>Save The Date</h2>
-        <div class="gold-line"></div>
-        <div class="details">
-            <p>Sabtu, 12 Desember 2026</p>
-            <p>Akad Nikah: 09.00 WIB</p>
-            <p>Resepsi: 11.00 WIB - Selesai</p>
-            <p>Grand Ballroom Hotel Mewah</p>
-            <p>Jakarta, Indonesia</p>
-        </div>
+        <div class="line"></div>
+        <p><strong>Sabtu, 12 Desember 2026</strong></p>
+        <p>Akad Nikah : 09.00 WIB</p>
+        <p>Resepsi : 11.00 WIB - Selesai</p>
+        <p>Rimba Desa Resort Jepara</p>
         <a href="#" class="btn">Konfirmasi Kehadiran</a>
     </div>
 </section>
 
+<!-- LOKASI -->
 <section>
     <div class="card">
-        <h2>Our Love Story</h2>
-        <section>
-    <div class="card">
         <h2>Lokasi Acara</h2>
-        <div class="gold-line"></div>
+        <div class="line"></div>
         <p>Rimba Desa Resort Jepara</p>
-        <p>Jalan Raya Jepara – Karimunjawa KM 6, Jepara</p>
-        <p>Koordinat: -6.5634482, 110.6862972</p>
+        <p>Jl. Raya Jepara – Karimunjawa KM 6</p>
+        <p>-6.5634482, 110.6862972</p>
         <a href="https://www.google.com/maps/place/Rimba+Desa+Resort+Jepara/@-6.5635491,110.6860976,16z" 
            target="_blank" class="btn">
-            Lihat di Maps
+           Buka Google Maps
         </a>
     </div>
 </section>
 
-        <div class="gold-line"></div>
+<!-- STORY -->
+<section>
+    <div class="card">
+        <h2>Our Story</h2>
+        <div class="line"></div>
         <p>
             Dua hati yang dipertemukan oleh takdir,
-            disatukan dalam cinta yang suci dan abadi.
-            Dengan penuh kebahagiaan, kami mengundang
-            Anda untuk menjadi bagian dari hari istimewa kami.
+            disatukan dalam ikatan suci pernikahan.
+            Dengan penuh kebahagiaan,
+            kami mengundang Anda
+            untuk hadir di hari istimewa kami.
         </p>
     </div>
 </section>
 
 <footer>
-     Syahril & Mutia Wedding
+    Syahril & Mutia
 </footer>
 
 </body>
